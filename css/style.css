@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid black;
 }
 
 body {
@@ -19,9 +18,36 @@ body {
     flex-wrap: wrap;
 }
 
+/* HEADER */
 .col-50 {
     width: 50%;
-    height: 100px;
-    background-color: grey;
-   
+}
+
+.col-50 a {
+    text-decoration: none;
+    color: black;
+}
+
+.col-50 ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.col-50 li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+/* UTILITY */
+.label {
+    color: white;
+    padding: 5px;
+}
+
+.blue {
+    background-color: #1e68dfe5;
+}
+
+.text-right {
+    text-align: end;
 }
