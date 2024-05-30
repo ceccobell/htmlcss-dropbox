@@ -72,6 +72,7 @@ a {
 .content {
     display: flex;
     justify-content: center;
+    position: relative;
 }
 
 h1 {
@@ -93,4 +94,8 @@ h1 {
 i {
     display: inline-block;
     margin: 20px 0px;
+}
+
+.col-50 img {
+    width: 80%;
 }
