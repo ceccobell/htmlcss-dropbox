@@ -65,8 +65,7 @@ h2 {
     font-size: 25px;
 }
 .col-33 {
-    width: calc(100% / 4);
-    height: 400px;
+    width: calc(100% / 3.5);
     border: 1px solid grey; 
     margin-right: 20px;
 }
@@ -96,7 +95,6 @@ h2 {
     padding: 30px 300px;
 }
 
-
 .d-block {
     display: block;
 }
@@ -110,6 +108,23 @@ h2 {
 }
 
 .py-400 {
-    padding-left: 400px;
+    padding-left: 300px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.margin-10 {
+    margin: 20px 0px;
+}
+
+.sub-type {
+    padding: 20px;
+}
+
+.blue-check {
+    color: #1e68dfe5;
+    font-weight: 500;
 }
 
