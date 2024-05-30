@@ -37,6 +37,7 @@ a {
 /* MAIN */
 .col-100 {
     width: 100%;
+    position: relative;
 }
 
 .col-50 li {
@@ -66,8 +67,15 @@ h2 {
 }
 .col-33 {
     width: calc(100% / 3.5);
-    border: 1px solid grey; 
     margin-right: 20px;
+}
+
+.border {
+    border: 1px solid grey;
+}
+
+.border-none {
+    border-top: none;
 }
 
 /* UTILITY */
@@ -110,6 +118,9 @@ h2 {
 .py-400 {
     padding-left: 300px;
 }
+.py-col-100 {
+    padding-right: 98px;
+}
 
 .text-center {
     text-align: center;
@@ -119,6 +130,9 @@ h2 {
     margin: 20px 0px;
 }
 
+.margin-50 {
+    margin-bottom: 50px;
+}
 .sub-type {
     padding: 20px;
 }
@@ -128,3 +142,12 @@ h2 {
     font-weight: 500;
 }
 
+.content-70 {
+    width: 70%;
+}
+
+.abs-pos {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
