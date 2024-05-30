@@ -21,12 +21,10 @@ body {
 /* HEADER */
 .col-50 {
     width: 50%;
-    height: 100px;
-    background-color: grey;
 }
 
-.col-50 a {
-    text-decoration: none;
+a {
+    text-decoration: none;   
     color: black;
 }
 
@@ -38,9 +36,6 @@ body {
 /* MAIN */
 .col-100 {
     width: 100%;
-    height: 100px;
-    background-color: green;
-    border: 1px solid black;
 }
 
 .col-50 li {
@@ -50,15 +45,34 @@ body {
 
 /* UTILITY */
 .label {
-    color: white;
     padding: 5px;
+}
+
+.white {
+    color: white;
 }
 
 .blue {
     background-color: #1e68dfe5;
 }
 
+.lightblue {
+    background-color: #B4D0E7;
+}
+
 .text-right {
     text-align: end;
 }
 
+.py-300 {
+    padding: 0px 300px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 50px;
+}
