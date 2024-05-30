@@ -44,6 +44,33 @@ a {
     margin: 0px 10px;
 }
 
+.col-50 img {
+    width: 80%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.col-50 i {
+    display: inline-block;
+    margin: 20px 0px;
+}
+
+h2, .input {
+    padding: 20px 400px 20px 400px;
+}
+
+h2 {
+    font-size: 25px;
+}
+.col-33 {
+    width: calc(100% / 4);
+    height: 400px;
+    border: 1px solid grey; 
+    margin-right: 20px;
+}
+
 /* UTILITY */
 .label {
     padding: 5px;
@@ -69,15 +96,6 @@ a {
     padding: 30px 300px;
 }
 
-.content {
-    display: flex;
-    justify-content: center;
-    position: relative;
-}
-
-h1 {
-    font-size: 50px;
-}
 
 .d-block {
     display: block;
@@ -91,11 +109,7 @@ h1 {
     margin-bottom: 30px;
 }
 
-i {
-    display: inline-block;
-    margin: 20px 0px;
+.py-400 {
+    padding-left: 400px;
 }
 
-.col-50 img {
-    width: 80%;
-}
