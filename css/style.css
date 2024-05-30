@@ -26,6 +26,7 @@ body {
 a {
     text-decoration: none;   
     color: black;
+    display: inline-block;
 }
 
 .col-50 ul {
@@ -65,7 +66,7 @@ a {
 }
 
 .py-300 {
-    padding: 0px 300px;
+    padding: 30px 300px;
 }
 
 .content {
@@ -75,4 +76,21 @@ a {
 
 h1 {
     font-size: 50px;
+}
+
+.d-block {
+    display: block;
+}
+
+.py-150 {
+    padding-left: 300px;
+}
+
+.margin-30 {
+    margin-bottom: 30px;
+}
+
+i {
+    display: inline-block;
+    margin: 20px 0px;
 }
