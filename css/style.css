@@ -151,3 +151,12 @@ h2 {
     top: 20px;
     right: 20px;
 }
+
+.col-70 {
+    width: 70%;
+    height: 300px;
+}
+
+.col-30 {
+    width: 30%;
+}
