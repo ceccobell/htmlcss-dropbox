@@ -220,3 +220,31 @@ h2 {
 .lightgrey {
     background-color: rgba(240, 240, 240, 0.288);
 }
+
+.content {
+    width: 60%;
+}
+
+.text {
+    margin: 30px 0px;
+}
+
+.content-text {
+    width: 100%;
+    position: relative;
+}
+
+.text-end {
+    position: absolute;
+    right: 0;
+    bottom: 10%;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    font-size: 25px;
+}
