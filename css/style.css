@@ -170,9 +170,16 @@ h2 {
 }
 
 .col-33-square {
-    flex: 1;
-    width: calc(100vw / 3);
+    width: calc(100% / 3);
     height: calc(100vw / 3);
     background-color: grey;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square-sm {
+    width: 50%;
+    height: 50%;
+    background-color: red;
     border: 1px solid black;
 }
