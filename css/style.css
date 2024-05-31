@@ -168,3 +168,11 @@ h2 {
 .col-33 img {
     width: 100%;
 }
+
+.col-33-square {
+    flex: 1;
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
+    background-color: grey;
+    border: 1px solid black;
+}
