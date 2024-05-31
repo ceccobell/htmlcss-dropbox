@@ -133,6 +133,7 @@ h2 {
 .margin-50 {
     margin-bottom: 50px;
 }
+
 .sub-type {
     padding: 20px;
 }
@@ -172,7 +173,6 @@ h2 {
 .col-33-square {
     width: calc(100% / 3);
     height: calc(100vw / 3);
-    background-color: grey;
     display: flex;
     flex-wrap: wrap;
 }
@@ -180,6 +180,43 @@ h2 {
 .square-sm {
     width: 50%;
     height: 50%;
-    background-color: red;
-    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.svg-img {
+    filter: invert(1);
+    width: 50%;
+}
+
+.svg-xl {
+    width: 50%;
+    position: relative;
+    top: 40px;
+    left: 20px;
+}
+
+.red {
+    background-color: #FF1C1C;
+}
+
+.green {
+    background-color: #A2D39B;
+}
+
+.bordeaux {
+    background-color: #61082B;
+}
+
+.yellow {
+    background-color: #FFD830;
+}
+
+.azure {
+    background-color: #04acee;
+}
+
+.lightgrey {
+    background-color: rgba(240, 240, 240, 0.288);
 }
