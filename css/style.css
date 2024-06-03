@@ -233,13 +233,6 @@ h3 {
 
 .content-text {
     width: 100%;
-    position: relative;
-}
-
-.text-end {
-    position: absolute;
-    right: 5%;
-    bottom: 10%;
 }
 
 .margin-40 {
@@ -286,4 +279,14 @@ h3 {
 .fa-solid:hover {
     font-size: 300%;
     cursor: pointer;
+}
+
+.margin-right-120 {
+    margin-right: 120px;
+}
+
+.col-100-text {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
 }
