@@ -83,8 +83,9 @@ img {
 }
 
 .img-outside {
-    position: absolute;
-    bottom: -20%;
+    margin-bottom: -30px;
+    margin-top: 10px;
+    width: 100%;
 }
 
 .margin-top {
@@ -156,7 +157,6 @@ h3 {
 
 .col-60 {
     width: 60%;
-    position: relative;
 }
 
 .col-40 {
