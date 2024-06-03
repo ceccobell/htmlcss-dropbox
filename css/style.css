@@ -270,3 +270,15 @@ h3 {
 .bg-white:hover {
     background-color: rgba(255, 255, 255, 0.815);
 }
+
+.d-none {
+    display: none;
+}
+
+.d-block {
+    display: block;
+}
+
+.text-end:hover  .d-none {
+    display: block;
+}
