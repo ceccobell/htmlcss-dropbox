@@ -18,9 +18,9 @@ body {
     flex-wrap: wrap;
 }
 
-
 .col-50 {
     width: 50%;
+    position: relative;
 }
 
 .a-style {
@@ -78,13 +78,17 @@ h1 {
     font-size: 60px;
 }
 
-.col-50 {
-    width: 50%;
-    position: relative;
-}
-
 img {
     width: 100%;
+}
+
+.img-outside {
+    position: absolute;
+    bottom: -20%;
+}
+
+.margin-top {
+    margin-top: 100px;
 }
 
 .end {
@@ -152,6 +156,7 @@ h3 {
 
 .col-60 {
     width: 60%;
+    position: relative;
 }
 
 .col-40 {
